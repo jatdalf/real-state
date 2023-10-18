@@ -1,14 +1,14 @@
 import React from "react";
-import style from './Home.module.css'
+import style from './Alquiler.module.css'
 import Header from '../../components/Header/Header.jsx';
 
-const Home = () => {
+const Alquiler = () => {
     return (
         <div>
             <Header />
-            this is Home
+            Esta es la seccion Alquiler
         </div>
     )
 }
 
-export default Home;
+export default Alquiler;

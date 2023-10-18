@@ -1,14 +1,14 @@
 import React from "react";
-import style from './Home.module.css'
+import style from './Venta.module.css'
 import Header from '../../components/Header/Header.jsx';
 
-const Home = () => {
+const Venta = () => {
     return (
         <div>
             <Header />
-            this is Home
+            Esta es la seccion Venta
         </div>
     )
 }
 
-export default Home;
+export default Venta;

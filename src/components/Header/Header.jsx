@@ -14,7 +14,7 @@ const Header = () => {
   return (
     < >
       <Menu className={style.navContainer} onClick={onClick} selectedKeys={[current]} mode="horizontal">
-      <img className={style.HeaderSvg} src={LogoSvg} />
+      <Link to="/Home"><img className={style.HeaderSvg} src={LogoSvg} /></Link>
       <Menu.Item key="1" >
         <Link to="/Home">Inicio</Link>       
       </Menu.Item>
@@ -25,10 +25,10 @@ const Header = () => {
       
       <Menu.SubMenu key="3" title="Propiedades"  icon= {<HomeFilled />}>
         <Menu.Item key="4"  >
-        <Link to="/Ventas">Ventas</Link>
+        <Link to="/Venta">Propiedades a la venta</Link>
         </Menu.Item>
         <Menu.Item key="5"  >
-        <Link to="/Alquileres">Alquileres</Link>
+        <Link to="/Alquiler">Propiedades en Alquiler</Link>
         </Menu.Item>        
       </Menu.SubMenu>
 
