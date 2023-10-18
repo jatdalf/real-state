@@ -6,13 +6,12 @@ import Home from './Views/Home/Home'
 import Detail from './Views/Detail/Detail';
 import Contacto from './Views/Contacto/Contacto';
 import About from './Views/About/About';
-import Header from './components/Header/Header';
 import Error404 from './Views/Error404/Error404';
 
 function App() {
   return (
     <>      
-      <Routes path="/*" element={<Header />}>
+      <Routes>
         <Route index element={<Landing />} />  
         <Route path="Home" element={<Home />} />      
         <Route path="Detail" element={<Detail />} />

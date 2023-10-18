@@ -1,0 +1,22 @@
+.landingSvg{
+    height: 45vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.LandingBg{
+    position: absolute;
+    width: 24%;
+    left: 75%;
+    top:2%;
+    background-color: white;
+}
+.landingVideo{
+    position:absolute;
+    z-index:-1;
+    top:0;
+    min-width: 100%; 
+    max-width: 100%; 
+    min-height: 100vh;    
+    background-size:cover;
+  }

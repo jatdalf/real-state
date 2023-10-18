@@ -1,9 +1,9 @@
 import style from "./Header.module.css"
-import { HomeTwoTone, EditTwoTone, CheckCircleTwoTone, IdcardTwoTone } from '@ant-design/icons';
+import { HomeFilled , EditTwoTone, FormOutlined, IdcardTwoTone, FacebookFilled, InstagramFilled, MailOutlined, PhoneFilled } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { Children, useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-
+import LogoSvg from '../../Assets/Federico-Rizzo-Logo.svg'
 
 const Header = () => {
   const [current, setCurrent] = useState('h');
@@ -12,40 +12,41 @@ const Header = () => {
     setCurrent(e.key);
   };
   return (
-    <>
-      <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal">
-      <Menu.Item key="h" icon= {<HomeTwoTone />}>
-       <Link to="/Home">Inicio</Link>       
+    < >
+      <Menu className={style.navContainer} onClick={onClick} selectedKeys={[current]} mode="horizontal">
+      <img className={style.HeaderSvg} src={LogoSvg} />
+      <Menu.Item key="1" >
+        <Link to="/Home">Inicio</Link>       
       </Menu.Item>
 
-      <Menu.Item key="n" icon= {<HomeTwoTone />}>
+      <Menu.Item key="2" >
        <Link to="/About">Nosotros</Link>       
       </Menu.Item>
       
-      <Menu.SubMenu key="p" title="Propiedades" style={{ marginLeft: 'auto' }}>
-        <Menu.Item key="v" icon= {<IdcardTwoTone />} >
+      <Menu.SubMenu key="3" title="Propiedades"  icon= {<HomeFilled />}>
+        <Menu.Item key="4"  >
         <Link to="/Ventas">Ventas</Link>
         </Menu.Item>
-        <Menu.Item key="a" icon= {<IdcardTwoTone />} >
+        <Menu.Item key="5"  >
         <Link to="/Alquileres">Alquileres</Link>
         </Menu.Item>        
       </Menu.SubMenu>
 
-      <Menu.Item key="c" icon= {<EditTwoTone />} style={{ marginLeft: 'auto' }}>
+      <Menu.Item key="6" icon= {<FormOutlined />} >
         <Link to="/Contacto">Contacto</Link>
       </Menu.Item>
       
-      <Menu.Item key="m" icon= {<CheckCircleTwoTone />} >
-        <Link to="/Contacto">mail</Link>
+      <Menu.Item key="7" icon= {<MailOutlined />} style={{ marginLeft: 'auto' }} >
+        <Link to="/Contacto"></Link>
       </Menu.Item>
-      <Menu.Item key="i" icon= {<CheckCircleTwoTone />} >
-        <Link to="/Contacto">Instagram</Link>
+      <Menu.Item key="8" icon= {<InstagramFilled />} >
+        <Link to="/Contacto"></Link>
       </Menu.Item>
-      <Menu.Item key="f" icon= {<CheckCircleTwoTone />} >
-        <Link to="/Contacto">Facebook</Link>
+      <Menu.Item key="9" icon= {<FacebookFilled />} >
+        <Link to="/Contacto"></Link>
       </Menu.Item>
-      <Menu.Item key="w" icon= {<CheckCircleTwoTone />} >
-        <Link to="/Contacto">WhatsApp</Link>
+      <Menu.Item key="10" icon= {<PhoneFilled />} >
+        <Link to="/Contacto">351 3 415987</Link>
       </Menu.Item>
      </Menu>
      <Outlet/>
