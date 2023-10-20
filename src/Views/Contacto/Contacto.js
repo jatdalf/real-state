@@ -6,7 +6,9 @@ const Contacto = () => {
     return (
         <div>
             <Header />
-            this is Contacto
+            <div className={style.container}>
+                Aqui va el formulario de contacto
+            </div>
         </div>
     )
 }

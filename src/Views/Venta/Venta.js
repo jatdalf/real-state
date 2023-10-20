@@ -6,7 +6,9 @@ const Venta = () => {
     return (
         <div>
             <Header />
-            Esta es la seccion Venta
+            <div className={style.container}>
+                Aqui se muestran las propiedades en venta 
+            </div>
         </div>
     )
 }

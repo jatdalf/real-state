@@ -6,7 +6,9 @@ const Detail = () => {
     return (
         <div>
             <Header/>
-            this is Detail
+            <div className={style.container}>
+                este es el detalle mostrado al hacer click
+            </div>
         </div>
     )
 }

@@ -6,7 +6,9 @@ const About = () => {
     return (
         <div>
             <Header/>
-            this is About
+            <div className={style.container}>
+                Aqui debe ir el modulo Acerca de...
+            </div>
         </div>
     )
 }

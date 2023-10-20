@@ -6,7 +6,9 @@ const Home = () => {
     return (
         <div>
             <Header />
-            this is Home
+            <div className={style.container}>
+                Aqui debe ir el modulo Home
+            </div>
         </div>
     )
 }

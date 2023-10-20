@@ -6,7 +6,9 @@ const Alquiler = () => {
     return (
         <div>
             <Header />
-            Esta es la seccion Alquiler
+            <div className={style.container}>
+                Aqui se mostraran todos los alquileres disponibles.
+            </div>
         </div>
     )
 }

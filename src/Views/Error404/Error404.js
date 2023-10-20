@@ -3,8 +3,8 @@ import style from './Error404.module.css'
 
 const Error404 = () => {
     return (
-        <div>
-            this is 404 error page
+        <div className={style.container}>
+            aqui se redirige al no encontrar una seccion en la pagina
         </div>
     )
 }
