@@ -1,5 +1,5 @@
 import style from "./Header.module.css"
-import { HomeFilled , EditTwoTone, FormOutlined, IdcardTwoTone, FacebookFilled, InstagramFilled, MailOutlined, PhoneFilled } from '@ant-design/icons';
+import { HomeFilled , FormOutlined, FacebookFilled, InstagramFilled, MailOutlined, PhoneFilled } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { Children, useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
@@ -15,7 +15,7 @@ const Header = () => {
     < >
       <Menu className={style.navContainer} onClick={onClick} selectedKeys={[current]} mode="horizontal">
       <Link to="/Home"><img className={style.HeaderSvg} src={LogoSvg} /></Link>
-      <Menu.Item key="1" >
+      <Menu.Item key="1" style={{ left: "5px" }} >
         <Link to="/Home">Inicio</Link>       
       </Menu.Item>
 
@@ -36,14 +36,16 @@ const Header = () => {
         <Link to="/Contacto">Contacto</Link>
       </Menu.Item>
       
-      <Menu.Item key="7" icon= {<MailOutlined />} style={{ marginLeft: 'auto' }} >
+      <Menu.Item key="7" icon= {<MailOutlined />} style={{ marginLeft: 'auto', left: '10px' }} >
         <Link to="/Contacto"></Link>
       </Menu.Item>
+     
       <Menu.Item key="8" icon= {<InstagramFilled />} >
-        <Link to="/Contacto"></Link>
-      </Menu.Item>
-      <Menu.Item key="9" icon= {<FacebookFilled />} >
-        <Link to="/Contacto"></Link>
+        <Link to="https://www.instagram.com/federicorizzo.ok/"></Link>
+      </Menu.Item>     
+
+      <Menu.Item key="9" icon= {<FacebookFilled />} style={{ right: "5px" }}>
+        <Link to="https://www.facebook.com/federicorizzo.ok"></Link>
       </Menu.Item>
       <Menu.Item key="10" icon= {<PhoneFilled />} >
         <Link to="/Contacto">351 3 415987</Link>
