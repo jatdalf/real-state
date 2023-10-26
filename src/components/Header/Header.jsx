@@ -24,30 +24,33 @@ const Header = () => {
       </Menu.Item>
       
       <Menu.SubMenu key="3" title="Propiedades"  icon= {<HomeFilled />}>
-        <Menu.Item key="4"  >
+      <Menu.Item key="4"  >
+        <Link to="/Temporario">Alquiler Temporario</Link>
+        </Menu.Item>        
+        <Menu.Item key="5"  >
         <Link to="/Venta">Propiedades a la venta</Link>
         </Menu.Item>
-        <Menu.Item key="5"  >
+        <Menu.Item key="6"  >
         <Link to="/Alquiler">Propiedades en Alquiler</Link>
-        </Menu.Item>        
+        </Menu.Item>                
       </Menu.SubMenu>
 
-      <Menu.Item key="6" icon= {<FormOutlined />} >
+      <Menu.Item key="7" icon= {<FormOutlined />} >
         <Link to="/Contacto">Contacto</Link>
       </Menu.Item>
       
-      <Menu.Item key="7" icon= {<MailOutlined />} style={{ marginLeft: 'auto', left: '10px' }} >
+      <Menu.Item key="8" icon= {<MailOutlined />} style={{ marginLeft: 'auto', left: '10px' }} >
         <Link to="/Contacto"></Link>
       </Menu.Item>
      
-      <Menu.Item key="8" icon= {<InstagramFilled />} >
+      <Menu.Item key="9" icon= {<InstagramFilled />} >
         <Link to="https://www.instagram.com/federicorizzo.ok/"></Link>
       </Menu.Item>     
 
-      <Menu.Item key="9" icon= {<FacebookFilled />} style={{ right: "5px" }}>
+      <Menu.Item key="10" icon= {<FacebookFilled />} style={{ right: "5px" }}>
         <Link to="https://www.facebook.com/federicorizzo.ok"></Link>
       </Menu.Item>
-      <Menu.Item key="10" icon= {<PhoneFilled />} >
+      <Menu.Item key="11" icon= {<PhoneFilled />} >
         <Link to="/Contacto">351 3 415987</Link>
       </Menu.Item>
      </Menu>

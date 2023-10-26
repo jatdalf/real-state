@@ -9,6 +9,7 @@ import About from './Views/About/About';
 import Error404 from './Views/Error404/Error404';
 import Venta from './Views/Venta/Venta';
 import Alquiler from './Views/Alquiler/Alquiler';
+import Temporario from './Views/Temporario/Temporario';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="About" element={<About />} />
         <Route path="Venta" element={<Venta />} />
         <Route path="Alquiler" element={<Alquiler />} />
+        <Route path="Temporario" element={<Temporario />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </>
