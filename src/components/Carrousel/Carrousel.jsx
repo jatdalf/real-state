@@ -60,7 +60,7 @@ const Carrousel = () => {
               className={`${style.dotCss} ${idx === currentImgIndex ? style.active : ''}`}
               onClick={() => goToImg(idx)}
             >
-              &#9864;
+              &#9751; &nbsp; 
             </div>
           ))}
         </div>
