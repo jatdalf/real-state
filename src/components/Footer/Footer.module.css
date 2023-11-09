@@ -1,0 +1,13 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #e5007f;
+    color: white;
+   
+    text-align: center; /* Agregamos esta propiedad para centrar el contenido */
+}
+
+.centeredContent {
+    display: inline-block; /* Asegura que el contenido esté centrado */
+}

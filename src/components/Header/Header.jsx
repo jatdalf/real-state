@@ -1,9 +1,9 @@
 import style from "./Header.module.css"
-import { HomeFilled , FormOutlined, FacebookFilled, InstagramFilled, MailOutlined, PhoneFilled } from '@ant-design/icons';
+import { HomeFilled , FormOutlined, MailOutlined, ShopOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { Children, useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import LogoSvg from '../../Assets/Federico-Rizzo-Logo.svg'
+import LogoSvg from '../../Assets/FrizzoInv.svg'
 
 const Header = () => {
   const [current, setCurrent] = useState('h');
@@ -20,7 +20,7 @@ const Header = () => {
       </Menu.Item>
 
       <Menu.Item key="2" >
-       <Link to="/About">Nosotros</Link>       
+       <Link to="/About">Quienes somos</Link>       
       </Menu.Item>
       
       <Menu.SubMenu key="3" title="Propiedades"  icon= {<HomeFilled />}>
@@ -39,20 +39,9 @@ const Header = () => {
         <Link to="/Contacto">Contacto</Link>
       </Menu.Item>
       
-      <Menu.Item key="8" icon= {<MailOutlined />} style={{ marginLeft: 'auto', left: '10px' }} >
-        <Link to="/Contacto"></Link>
-      </Menu.Item>
-     
-      <Menu.Item key="9" icon= {<InstagramFilled />} >
-        <Link to="https://www.instagram.com/federicorizzo.ok/"></Link>
+      <Menu.Item key="8" icon= {<ShopOutlined />} style={{ right: "5px" }} >
+        <Link to="/Contacto">Administracion</Link>
       </Menu.Item>     
-
-      <Menu.Item key="10" icon= {<FacebookFilled />} style={{ right: "5px" }}>
-        <Link to="https://www.facebook.com/federicorizzo.ok"></Link>
-      </Menu.Item>
-      <Menu.Item key="11" icon= {<PhoneFilled />} >
-        <Link to="/Contacto">351 3 415987</Link>
-      </Menu.Item>
      </Menu>
      <Outlet/>
     </>

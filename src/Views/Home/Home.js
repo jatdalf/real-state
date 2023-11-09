@@ -8,6 +8,8 @@ import HomeBoceto from '../../Assets/HomeBoceto.png';
 import Mapa from '../../Assets/Mapa.png';
 import MisionVisonValor from '../../Assets/MisionVisonValor.png';
 import oportunidades from '../../Assets/oportunidades.png';
+import WhatsApp from "../../components/Whatsapp/Whatsapp";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -31,7 +33,8 @@ const Home = () => {
                     <div className={style.home}>
                         <img src={Mapa} className={style.homeImg} />
                     </div>
-              
+              <Footer />
+              <WhatsApp />
             </div>
         </div>
     )
