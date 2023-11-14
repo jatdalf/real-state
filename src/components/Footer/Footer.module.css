@@ -11,3 +11,15 @@
 .centeredContent {
     display: inline-block; /* Asegura que el contenido esté centrado */
 }
+.icon1{
+    left: -6vw;
+    display: flex;
+    
+}
+.icon2{
+    left: -4vw;
+}
+.phoneNumber{
+    display: inline;
+    
+}
