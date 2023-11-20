@@ -9,10 +9,10 @@ const Footer = () => {
     return (
         <div className={style.footer}>
             <p className={`${style.footerp} ${style.centeredContent}`}>
-                <SocialIcon url="https://www.instagram.com/federicorizzo.ok/" className={style.icon1}/>
-                <SocialIcon url="https://www.facebook.com/federicorizzo.ok" className={style.icon2}/>
+                <SocialIcon url="https://www.instagram.com/federicorizzo.ok/" className={style.icon1} target="_blank"/>
+                <SocialIcon url="https://www.facebook.com/federicorizzo.ok" className={style.icon2} target="_blank"/>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                mail@mail.com
+                admfederizo@gmail.com
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div className={style.phoneNumber}><PhoneFilled />  351 3 415987</div>
             </p>
