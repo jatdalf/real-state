@@ -14,7 +14,7 @@
 .icon1{
     left: -6vw;
     display: flex;
-    top: -0.8vw;
+    top: -0.1vw;
     transition: transform 0.2s ease-in-out;
     filter: drop-shadow(2px 4px 4px black);
 }
@@ -24,7 +24,7 @@
 .icon2{
     transition: transform 0.2s ease-in-out;
     left: -4vw;
-    top: -0.8vw;
+    top: -0.1vw;
     filter: drop-shadow(2px 4px 4px black);
 }
 .icon2:hover{
@@ -37,4 +37,6 @@
 .footerp{
     text-shadow: black 1px 1px 1px;
     font-weight:600;
+    position: relative;
+    top: -15%;
 }
