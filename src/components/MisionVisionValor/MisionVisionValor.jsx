@@ -18,7 +18,8 @@ const MisionVisionValor = ()=>{
         name: 'VALORES',
         cardImage: 'https://static.wixstatic.com/media/400291_3c706abf2563477d822fa8df80e0257c~mv2.gif',
         cardText: ['Honestidad','Integridad','Confiabilidad','Compromiso','Respeto','Innovación','Pasión',
-        'Trabajo en equipo'],
+        'Trabajo en equipo','Responsabilidad social corporativa','Cuidado del Medioambiente','Vocación de servicio',
+        'Empatía','Cortesía','Espíritu de superación'],
     }]
 
     const currentCard = cardData.slice(0, 3)
