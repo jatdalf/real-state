@@ -1,0 +1,45 @@
+.cpiContainer{
+    background-color: #EAEAEA;
+    width: 100%;
+    display: flex;    
+}
+.cpiTitleContainer{
+    margin-top: 0.5em;
+}
+.cpiMpContainer{
+    margin-left: 35%;
+    margin-top: 1.2em;
+}
+.cpiImg{
+    margin-bottom: 4em;
+    margin-left: 5em;
+}
+.cpiTitle{
+    font-weight: 700;
+    color: #014F52;    
+    font-size: 18px;
+}
+.cpiMp{
+    font-weight: 900;
+    font-size: 26px;
+}
+@media only screen and (max-width: 600px) {
+    .cpiImg{
+        margin-bottom: 4em;
+        margin-left: 1em;
+        width: 40%;
+    }
+    .cpiTitle{
+        font-weight: 700;
+        color: #014F52;    
+        font-size: 11px;
+    }
+    .cpiMp{
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .cpiMpContainer{
+        margin-left: 5%;
+        margin-top: 1.2em;
+    }
+}

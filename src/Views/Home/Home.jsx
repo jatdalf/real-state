@@ -11,6 +11,7 @@ import WhatsApp from "../../components/Whatsapp/Whatsapp";
 import Footer from "../../components/Footer/Footer";
 import Contacto from "../Contacto/Contacto";
 import Opportunities from "../../components/Opportunities/opportunities";
+import CpiBanner from "../../components/CpiBanner/CpiBanner";
 
 const Home = () => {
     return (
@@ -35,6 +36,7 @@ const Home = () => {
                     <div className={style.home}>
                         <img src={Mapa} className={style.homeImg} />
                     </div>
+              <CpiBanner />
               <Footer />
               <WhatsApp />
             </div>
