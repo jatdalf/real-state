@@ -5,7 +5,7 @@
 }
 .contactTitle{
     margin-top: 5%;
-    font-weight: 700;
+    font-weight: 00;
 }
 .contactImg{
     position:relative;
@@ -33,4 +33,20 @@
     position: relative;
     margin-top: 7%;
     left: -15%;
+}
+
+/* Media Query para ajustes en dispositivos más pequeños (puedes ajustar el tamaño según tus necesidades) */
+@media only screen and (max-width: 600px) {
+    .container {
+        left: 0;
+    }
+
+    .contactNode {
+        flex-direction: column; /* Cambiado de fila a columna */
+    }
+
+    .contactP1,
+    .contactP2 {
+        left: 0; /* Ajuste para que no haya un desplazamiento lateral */
+    }
 }

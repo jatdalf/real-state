@@ -10,6 +10,7 @@ import oportunidades from '../../Assets/oportunidades.png';
 import WhatsApp from "../../components/Whatsapp/Whatsapp";
 import Footer from "../../components/Footer/Footer";
 import Contacto from "../Contacto/Contacto";
+import Opportunities from "../../components/Opportunities/opportunities";
 
 const Home = () => {
     return (
@@ -21,12 +22,13 @@ const Home = () => {
                     <div className={style.home}>
                         <img src={HomeBoceto} className={style.homeImg} />
                     </div>
+
                     <div className={style.home}>
-                        <MisionVisionValor />                        
+                        <MisionVisionValor />    
+                        <Contacto />      
+                        <Opportunities />              
                     </div>
-                    <div className={style.home}>                        
-                        <Contacto />
-                    </div>
+                   
                     <div className={style.home}>
                         <img src={oportunidades} className={style.homeImg} />
                     </div>
