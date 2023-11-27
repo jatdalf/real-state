@@ -34,9 +34,7 @@ const Home = () => {
                     <div className={style.home}>
                         <img src={oportunidades} className={style.homeImg} />
                     </div>
-                    <div className={style.home}>
-                        <img src={Mapa} className={style.homeImg} />
-                    </div>
+                 
               <Map />
               <CpiBanner />
               <Footer />

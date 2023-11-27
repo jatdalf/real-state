@@ -15,14 +15,14 @@ const Map = () => {
       const mapDiv = document.getElementById('map');
       const map = new window.google.maps.Map(mapDiv, {
         center: coordenadas,
-        zoom: 17,
+        zoom: 15,
       });
 
       // Crear un marcador rojo en las coordenadas dadas
       const marker = new window.google.maps.Marker({
         position: coordenadas,
         map: map,
-        title: 'Ubicación',
+        title: 'Federico Rizzo\nInversiones Inmobiliarias',
         icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png', // Icono rojo
       });
     });
@@ -31,8 +31,17 @@ const Map = () => {
   return (
     <div className={style.mapDiv}>
         <div id="map" className={style.MapContainer} />
+              
+        <div className={style.mapAdress}>
+            <h3>Dirección: Avda. Maipú 151 Oficina 2, Córdoba Capital</h3>   
+        </div>
+
         <div className={style.mapTextDiv}>
-            <h2 className={style.mapH2}>Horarios de atención</h2>
+            <h2 className={style.mapH2}>Horarios de atención<br/>Administración</h2>
+            <h3 className={style.mapH3}>08:00 a 18:00 horas</h3>
+            <br/>
+            <h2 className={style.mapH2}>Horarios de atención<br/>Comercial</h2>
+            <h3 className={style.mapH3}>09:00 a 16:00 horas</h3>
         </div>        
     </div>
   ) 

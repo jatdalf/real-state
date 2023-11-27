@@ -2,17 +2,20 @@
     background-color: #EAEAEA;
     width: 100%;
     display: flex;    
+    height: 250px;
 }
 .cpiTitleContainer{
-    margin-top: 0.5em;
+    margin-top: 2.2em;
 }
 .cpiMpContainer{
     margin-left: 35%;
-    margin-top: 1.2em;
+    margin-top: 2.6em;
 }
 .cpiImg{
+    margin-top: 2em;
     margin-bottom: 4em;
     margin-left: 5em;
+    height: 120px;
 }
 .cpiTitle{
     font-weight: 700;
@@ -28,6 +31,7 @@
         margin-bottom: 4em;
         margin-left: 1em;
         width: 40%;
+        height: 100px;
     }
     .cpiTitle{
         font-weight: 700;
@@ -36,10 +40,13 @@
     }
     .cpiMp{
         font-weight: 800;
-        font-size: 14px;
+        font-size: 16px;
     }
     .cpiMpContainer{
         margin-left: 5%;
-        margin-top: 1.2em;
+        margin-top: 3.2em;
+    }
+    .cpiTitleContainer{
+        margin-top: 3.1em;
     }
 }

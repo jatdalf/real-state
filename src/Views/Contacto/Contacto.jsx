@@ -7,7 +7,7 @@ const Contacto = () => {
            <h1 className={style.contactTitle}>Contactanos por estos medios:</h1>
            <div className={style.contactNode}>
             <img src='https://static.wixstatic.com/media/400291_00335cc27ed84991a820056ff246bd72~mv2.gif' className={style.contactImg}/>
-            <p className={style.contactP1}>Por email a la direccion:</p>
+            <p className={style.contactP1}>Por email a la dirección:</p>
             <p className={style.contactP2}>admfederizo@gmail.com</p>
            </div>
            <div className={style.contactNode}>
@@ -17,9 +17,9 @@ const Contacto = () => {
            </div>
            <div className={style.contactNode}>
             <img src='https://static.wixstatic.com/media/400291_9d7e9b87406e4892b4404a17fd060a1f~mv2.gif' className={style.contactImg}/>
-            <p className={style.contactP1}>Comunicate por telefono al:</p>
+            <p className={style.contactP1}>Comunicate por teléfono al:</p>
             <p className={style.contactP2}>351 3415987</p>
-            <p className={style.contactP3}>Lunes a Viernes de 9:00 a 18:00 <br/>Sabados de 9:00 a 13:00</p>            
+            <p className={style.contactP3}>Lunes a Viernes de 9:00 a 18:00 <br/>Sábados de 9:00 a 13:00</p>            
            </div>
            <div className={style.contactNode}>
             <img src='https://static.wixstatic.com/media/400291_1d833b5d26ba46efb3c1c3c0eb718a09~mv2.gif' className={style.contactImg}/>
