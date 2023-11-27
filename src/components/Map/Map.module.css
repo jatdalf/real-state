@@ -4,4 +4,14 @@
     margin-left: 1em;
     margin-top: 3em;
     margin-bottom: 3em;
+    border: 3px solid black;
+    box-shadow: 6px 4px 4px gray;
+}
+.mapDiv{
+    display: flex;
+}
+
+.mapTextDiv{
+    margin-top: 5em;
+    margin-left: 5em;
 }
