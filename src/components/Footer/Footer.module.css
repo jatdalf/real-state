@@ -5,7 +5,8 @@
     background-color: #e5007f;
     color: white;
     height: 62px;
-    text-align: center; /* Agregamos esta propiedad para centrar el contenido */        
+    text-align: center; /* Agregamos esta propiedad para centrar el contenido */ 
+    z-index: 4;       
 }
 
 .centeredContent {

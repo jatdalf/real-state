@@ -4,7 +4,6 @@ import Header from '../../components/Header/Header.jsx';
 import Carrousel from "../../components/Carrousel/Carrousel";
 import celphone from '../../Assets/celphone.png';
 import HomeBoceto from '../../Assets/HomeBoceto.png';
-import Mapa from '../../Assets/Mapa.png';
 import MisionVisionValor from "../../components/MisionVisionValor/MisionVisionValor";
 import oportunidades from '../../Assets/oportunidades.png';
 import WhatsApp from "../../components/Whatsapp/Whatsapp";
@@ -13,32 +12,24 @@ import Contacto from "../Contacto/Contacto";
 import Opportunities from "../../components/Opportunities/opportunities";
 import CpiBanner from "../../components/CpiBanner/CpiBanner";
 import Map from "../../components/Map/Map";
+import RentSaleCard from "../../components/RentSaleCard/RentSaleCard";
 
 const Home = () => {
     return (
         <div>
             <Header />
             <div className={style.container}>
-                {/* <Carrousel /> */}
-               
-                    <div className={style.home}>
-                        <img src={HomeBoceto} className={style.homeImg} />
-                    </div>
-
-                    <div className={style.home}>
-                        <MisionVisionValor />    
-                        <Contacto />      
-                        <Opportunities />              
-                    </div>
-                   
-                    <div className={style.home}>
-                        <img src={oportunidades} className={style.homeImg} />
-                    </div>
-                 
-              <Map />
-              <CpiBanner />
-              <Footer />
-              <WhatsApp />
+                <div className={style.home}>
+                    <RentSaleCard />
+                    <MisionVisionValor />    
+                    <Contacto />      
+                    <Opportunities />              
+                    <img src={oportunidades} className={style.homeImg} />
+                    <Map />
+                    <CpiBanner />
+                    <Footer />
+                    <WhatsApp />            
+                </div>                
             </div>
         </div>
     )
