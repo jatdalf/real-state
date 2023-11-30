@@ -11,6 +11,7 @@ import Venta from './Views/Venta/Venta';
 import Alquiler from './Views/Alquiler/Alquiler';
 import Temporario from './Views/Temporario/Temporario';
 
+
 function App() {
   return (
     <>      
