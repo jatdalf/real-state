@@ -50,8 +50,7 @@
 .centerTextCard{    
     text-align: center;    
     margin-left: 25%;
-    margin-right: 25%;
-    
+    margin-right: 25%;    
 }
 .rightTextCard{
     text-align: right;
@@ -86,7 +85,7 @@
     position: relative;
     height: 458px;
     top: -18.5%;    
-    left: -8%;
+    
 }
 .images2Container{
     width: 100%;

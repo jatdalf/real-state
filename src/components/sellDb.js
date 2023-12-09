@@ -1,4 +1,4 @@
-const SellDd =[{
+const ventas =[{
     id: 1,    
     price: 52000,
     coin: 'USD',
@@ -67,3 +67,5 @@ const SellDd =[{
             ],
     opportunities: true,
 }]
+
+export default ventas

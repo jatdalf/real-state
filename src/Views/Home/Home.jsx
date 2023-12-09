@@ -23,8 +23,7 @@ const Home = () => {
                     <RentSaleCard />
                     <MisionVisionValor />    
                     <Contacto />      
-                    <Opportunities />              
-                    <img src={oportunidades} className={style.homeImg} />
+                    <Opportunities />
                     <Map />
                     <CpiBanner />
                     <Footer />
