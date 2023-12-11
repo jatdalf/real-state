@@ -11,6 +11,18 @@ const Header = () => {
     console.log('click ', e);
     setCurrent(e.key);
   };
+  const handleScrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+
+
   return (
     < >
       <Menu className={style.navContainer} onClick={onClick} selectedKeys={[current]} mode="horizontal">
@@ -36,7 +48,7 @@ const Header = () => {
       </Menu.SubMenu>
 
       <Menu.Item key="7" icon= {<FormOutlined />} >
-        <Link to="/Contacto">Contacto</Link>
+        <Link to="/Home#" onClick={() => handleScrollToSection('contactMe')}>Contacto</Link>
       </Menu.Item>
       
       <Menu.Item key="8" icon= {<ShopOutlined />} style={{ right: "5px" }} >

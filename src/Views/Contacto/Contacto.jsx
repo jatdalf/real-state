@@ -2,9 +2,8 @@ import React from "react";
 import style from './Contacto.module.css'
 
 const Contacto = () => {
-    return (                 
-        
-        <div  className={style.container}>
+    return (                         
+        <div  id="contactMe" className={style.container}>
            <h1 className={style.contactTitle}>Contactanos por estos medios:</h1>
            <div className={style.contactNode}>
             <img src='https://static.wixstatic.com/media/400291_00335cc27ed84991a820056ff246bd72~mv2.gif' className={style.contactImg}/>

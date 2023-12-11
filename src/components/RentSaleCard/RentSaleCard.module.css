@@ -25,13 +25,13 @@
 .saleCard{
     z-index: 3;      
     -webkit-transform: skew(20deg);
-     -moz-transform: skew(20deg);
-     -ms-transform: skew(20deg);
-     -o-transform: skew(20deg);
-     transform: skew(-20deg);
-     width: 450px;
-     margin-left: -90px;
-     margin-right: -90px;
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(-20deg);
+    width: 450px;
+    margin-left: -90px;
+    margin-right: -90px;
 }
 .rentCard{    
     z-index: 2;    
@@ -75,11 +75,13 @@
     z-index: -1;
 }
 .SaleimageCss{
-    width: 460px;
+    width: 618px;
     height: 458px;
     position: relative;    
     z-index: -1;
     top: -0%;
+    margin-left: -82px;    
+    transform: skew(20deg);
 }
 .slider2Container{
     position: relative;
@@ -95,8 +97,7 @@
 .slider3Container{
     position: relative;
     height: 458px;
-    top: -18.5%;    
-    left: -18%;
+    top: -18.5%;
 }
 .images3Container{
     width: 100%;
